@@ -1,0 +1,7 @@
+services:
+  beszel:
+    image: matrix1999/weboasis:latest
+    container_name: weboasis
+    ports:
+      - 8888:8000
+    restart: unless-stopped
